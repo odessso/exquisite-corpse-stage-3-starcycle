@@ -63,11 +63,21 @@ the cycle goes as follows:
 *I absolutely loved Cat's take on the first stage of this brief, I found it unique and visually stunning. As I admired it so much, I chose to keep all of the images, colours and patterns the same. I only played around with the sizing of them just to fit the screen better. To incorporate interactivity to this sketch, I have added in an input box that invites the user to enter in a word of their choice. The code then uses a series of RiTa.js functions to determine what type of word it is e.g. verb, noun or adjective and displays one of the star images accordingly. If the user presses the enter button without inputting anything or inputs something the code cannot recognise as a word then the sketch will display an error message asking them to try again with a valid word. My thought process in doing this was that using an input box gives the user a lot of freedom in what they want to do/say but I can still categorise their inputs to display something from them. I wanted the users to experiment with different kinds of words to see the different outputs they could get. I chose to keep Cat's setInterval of drawing stars and apply it to every time the enter button is pressed because as previously mentioned, I loved the way it looked. I thought it was fitting to use it in this manner because then the user is amused and engaged by this animation everytime they press the enter button. Overall, I wanted this sketch to allow the user to be playful and experimental with their choices while seeing some truly beautiful images. Some challenges I came across while making this sketch was the setInterval stars being drawn over the images. I attempted to separate them and the images into different layers using the createGraphics element but in trying to learn and apply it, I found that it was causing me more issues than solutions. Therefore, I decided that, considering time constraints, it was wiser to leave this issue alone. Instead, I opted to decrease the timeframe for when the stars are drawn so that there wouldn't be as many covering the image.*
 
 ### 🟩 Stage 3
-- Name/Alias:
-- Github account:
-- Published webpage for stage 3:
+- Name/Alias: ODESSSO / Odette MH
+- Github account: https://github.com/odessso
+- Published webpage for stage 3: https://odessso.github.io/exquisite-corpse-stage-3-starcycle/
 
-*... comments to be added here*
+#### Overview:
+- I also found Cat's style to be very visually and aesthetically appealing so didn't want to change the basis of the code too much. I decided to add some additional data that could be pulled up when the user inputs their word into the search bar. I hope that the data on biological specimines push the user to think about space less as a lifeless void and more like a pourous vessel that has the potnetial to hold life forms within it somewhere. I wanted to draw a connection between the imagery of these large nebulas and living life forms, playing on the idea that they co-exist.
+
+#### Atributes:
+- I kept with the theme of Roshni's code by having the data from the API's be drawn when the user inputs certain words into the search engine.
+- I made the code refresh everytime that the user inputs a new word so that a new set of biological data is drawn form the API.
+
+#### Problems Faced:
+- I had a lot of trouble organising the data from the APIs. Originally, I attempted to use other types of API's for example "Worldwide astronomy data", "Asteroids, minor planets, and other objects" or "Scholarly information about high energy physics", however the data was organised very strangely and I had a lot of trouble actually drawing any of it to the screen. The best I could get was the biological speicimine data which I believe is actually a less obvious but still valid link between the living world and space.
+- I had a lot of trouble getting the data to cycle through and change to different selections once a selection had been drawn to the screen the first time. luckily ChatGPT was able to help with this and I could get new data to appear when the user input another word. - its approach to doing this was to limit the data selection to 10 records and then from that selection choose one randomly fetched record.
+- Using data within code isn't as easy for me as other forms of code, so in future exquisite corpse works I hope to make some more complex changes to the code I start with.
 
 ### 🟦 Stage 4
 - Name/Alias:
